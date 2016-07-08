@@ -1,0 +1,27 @@
+<ui:composition  xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://xmlns.jcp.org/jsf/html"
+	xmlns:jsf="http://xmlns.jcp.org/jsf"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:f="http://xmlns.jcp.org/jsf/core"
+	xmlns:p="http://primefaces.org/ui"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	template="/templates/igluTemp2.xhtml">
+
+
+<ui:define name="cssScript">
+		<h:outputStylesheet library="css" name="main.css" />
+		
+
+		<h:outputScript library="js" name="jquery.js" />
+		
+	</ui:define>
+	
+
+	<ui:define name="body">
+<h:form>editor
+				 <p:editor/></h:form>
+
+	</ui:define>
+
+</ui:composition>
+
